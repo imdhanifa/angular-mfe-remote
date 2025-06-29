@@ -22,7 +22,7 @@ This project serves as a **remote micro frontend** that can be dynamically loade
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/angular-mfe-remote.git
+git clone https://github.com/imdhanifa/angular-mfe-remote.git
 cd angular-mfe-remote
 ```
 
@@ -120,4 +120,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-For issues or enhancements, please open an issue on [GitHub Issues](https://github.com/your-username/angular-mfe-remote/issues).
+For issues or enhancements, please open an issue on [GitHub Issues](https://github.com/imdhanifa/angular-mfe-remote/issues).
