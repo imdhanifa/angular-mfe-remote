@@ -1,0 +1,22 @@
+<div class="product-card-wrapper">
+  <div class="product-card" (click)="gotoHome()">
+    <div class="product-card__header">
+      <p class="product-card__title">{{ product.make }}</p>
+      <p class="product-card__price">Price: ₹{{ product.price }}</p>
+    </div>
+    <div class="product-card__body">
+      <div class="product-detail">
+        <span class="label">Color</span>
+        <span class="value">{{ product.color }}</span>
+      </div>
+      <div class="product-detail">
+        <span class="label">RAM</span>
+        <span class="value">{{ product.ram }}</span>
+      </div>
+      <div class="product-detail">
+        <span class="label">Hard Disk</span>
+        <span class="value">{{ product.rom }}</span>
+      </div>
+    </div>
+  </div>
+</div>

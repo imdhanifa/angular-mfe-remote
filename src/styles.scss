@@ -1,0 +1,52 @@
+/* ===  GLOBAL THEME TOKENS  ========================================= */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --border-color: #cccccc;
+  --hover-bg: #f0f0f0;
+  --active-bg: #2196F3;
+  --active-color: #ffffff;
+  --scroll-thumb: #999999;
+
+  /* login-specific fallbacks (light) */
+  --login-bg: linear-gradient(135deg, #e0eaff, #ffffff);
+  --glass-bg: rgba(255, 255, 255, 0.90);
+  --btn-gradient: linear-gradient(90deg, #007bff, #0052cc);
+  --btn-gradient-h: linear-gradient(90deg, #0052cc, #007bff);
+  --link-color: #333333;
+  --link-hover: #000000;
+}
+
+[data-theme='dark'] {
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+  --border-color: #444444;
+  --hover-bg: #2c2c2c;
+  --active-bg: #444444;
+  --active-color: #ffffff;
+  --scroll-thumb: #666666;
+
+  /* login (dark) */
+  --login-bg: linear-gradient(90deg, #151a1c, #ff000029, #151a1c);
+  --glass-bg: #131418;
+  --btn-gradient: linear-gradient(90deg, #151a1c, #ff0000);
+  --btn-gradient-h: linear-gradient(90deg, #ff0000,#151a1c);
+  --link-color: #e0e0ff;
+  --link-hover: #ffffff;
+}
+
+/* sensible reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background .3s, color .3s;
+  height: 100vh;
+  overflow: hidden;
+}

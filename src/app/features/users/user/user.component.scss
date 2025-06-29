@@ -1,0 +1,42 @@
+.user-profile {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+  &__item {
+    margin: 8px 0;
+    font-size: 16px;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+}
+
+/* Light Theme */
+[data-theme='light'] {
+  .user-profile {
+    background-color: #fafafa;
+    border-color: #ccc;
+    color: #333;
+
+    strong {
+      color: #222;
+    }
+  }
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+  .user-profile {
+    background-color: #1e1e1e;
+    border-color: #444;
+    color: #e2e8f0;
+
+    strong {
+      color: #fff;
+    }
+  }
+}

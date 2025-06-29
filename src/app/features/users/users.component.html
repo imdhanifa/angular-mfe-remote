@@ -1,0 +1,10 @@
+<div class="user-list">
+  <div class="user-list__column">
+    <div *ngFor="let user of users"
+      (click)="onUserClick(user)"
+      class="user-list__item"
+    >
+      {{ user.name }}
+    </div>
+  </div>
+</div>
